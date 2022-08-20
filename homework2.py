@@ -1,7 +1,5 @@
-
 # Задайте список из нескольких чисел. Напишите программу, 
 # которая найдёт сумму элементов списка, стоящих на нечётной позиции.
-
 
 n = [1, 4, 6, 4, 2]
 
@@ -14,18 +12,6 @@ for i in range(len(n)):
 
 # print(multiply)
 
-
-n_1 = [1, 5, 8, 9, 2]
-answers = []
-
-lenght_of_list = len(n_1) - len(n_1)//2
-lenght = 0
-
-for i in range(lenght_of_list):
-    i += 1
-    i = -i
-    multply_1 = n_1[lenght] + n_1[i]
-
 # Напишите программу, которая найдёт произведение пар чисел списка.
 # Парой считаем первый и последний элемент, второй и предпоследний и т.д.
 
@@ -37,7 +23,6 @@ for i in range(len(n_1) - len(n_1)//2):
     i += 1
     i = -i
     multply_1 = n_1[lenght] * n_1[i]
-
     lenght += 1
     i += -1
 
@@ -47,7 +32,6 @@ for i in range(len(n_1) - len(n_1)//2):
     answers.append(multply_1)
 
 # print(answers)
-
 
 # Задайте список из вещественных чисел. 
 # Напишите программу, которая найдёт разницу между 
@@ -87,28 +71,17 @@ while num > 0:
 
 k = int(input('Enter the number: '))
 fib1 = 0
-fib2 = 0
+fib2 = 1
 negofibonachi = []
 
 for i in range(k+1):
+    action_0 = fib1 - fib2
+    fib1 -= i
+    fib2 += i
 
-    if fib1 >= 2 and fib2 >= 2:
-        fib1 = i-1
-        fib2 = i-2
-    
-    if fib1 <= 1 and fib2 <= 1:
-        fib1 = i
-        fib2 = i
-    
-    action_0 = fib1 + fib2
-    
-    fib1 = i
-    fib2 = i
-    
       
     negofibonachi.append(action_0)
 
 print(negofibonachi)
     
 #  print(negofibonachi)
-
