@@ -1,9 +1,8 @@
-<<<<<<< Updated upstream
-=======
+
 # Задайте список из нескольких чисел. Напишите программу, 
 # которая найдёт сумму элементов списка, стоящих на нечётной позиции.
 
->>>>>>> Stashed changes
+
 n = [1, 4, 6, 4, 2]
 
 count = 1
@@ -15,7 +14,6 @@ for i in range(len(n)):
 
 # print(multiply)
 
-<<<<<<< Updated upstream
 
 n_1 = [1, 5, 8, 9, 2]
 answers = []
@@ -27,7 +25,7 @@ for i in range(lenght_of_list):
     i += 1
     i = -i
     multply_1 = n_1[lenght] + n_1[i]
-=======
+
 # Напишите программу, которая найдёт произведение пар чисел списка.
 # Парой считаем первый и последний элемент, второй и предпоследний и т.д.
 
@@ -39,7 +37,7 @@ for i in range(len(n_1) - len(n_1)//2):
     i += 1
     i = -i
     multply_1 = n_1[lenght] * n_1[i]
->>>>>>> Stashed changes
+
     lenght += 1
     i += -1
 
@@ -50,9 +48,7 @@ for i in range(len(n_1) - len(n_1)//2):
 
 # print(answers)
 
-<<<<<<< Updated upstream
 
-=======
 # Задайте список из вещественных чисел. 
 # Напишите программу, которая найдёт разницу между 
 # максимальным и минимальным значением дробной части элементов.
@@ -115,4 +111,4 @@ for i in range(k+1):
 print(negofibonachi)
     
 #  print(negofibonachi)
->>>>>>> Stashed changes
+
