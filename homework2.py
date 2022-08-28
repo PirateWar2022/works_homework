@@ -7,31 +7,31 @@ count = 1
 
 for i in range(len(n)):
     if i % 2 != 0:
-        multiply = n[i] * n[count]
+        multiply = n[i] + n[count]
         count = i
 
-# print(multiply)
+print(multiply)
 
 # Напишите программу, которая найдёт произведение пар чисел списка.
 # Парой считаем первый и последний элемент, второй и предпоследний и т.д.
 
-n_1 = [1, 5, 8, 9, 2]
+n_1 = [2, 3, 4, 5, 6]
 answers = []                                                                                      
 lenght = 0
 
-for i in range(len(n_1) - len(n_1)//2):
+for i in range(len()len(n_1)//2):
     i += 1
     i = -i
     multply_1 = n_1[lenght] * n_1[i]
     lenght += 1
     i += -1
 
-    # print(i)
-    # print(lenght)
+    print(i)
+    print(lenght)
 
     answers.append(multply_1)
 
-# print(answers)
+print(answers)
 
 # Задайте список из вещественных чисел. 
 # Напишите программу, которая найдёт разницу между 
@@ -46,11 +46,11 @@ for i in n_2:
     round_up_the_remainder = round(remainder, 2)    
     list_with_remainder.append(round_up_the_remainder)
 
-# print(list_with_remainder)
+print(list_with_remainder)
 
 action = max(list_with_remainder) - min(list_with_remainder)
 
-# print(action)
+print(action)
 
 
 # Напишите программу, которая будет 
@@ -69,19 +69,31 @@ while num > 0:
 
 #  F−n = (−1)n+1Fn.
 
-k = int(input('Enter the number: '))
-fib1 = 0
-fib2 = 1
-negofibonachi = []
+# 5.) Задайте число. Составьте список чисел Фибоначчи, в том числе для отрицательных индексов.
+# Пример:  - для k = 8 список будет выглядеть так: [-21 ,13, -8, 5, −3, 2, −1, 1, 0, 1, 1, 2, 3, 5, 8, 13, 21] 
 
-for i in range(k+1):
-    action_0 = fib1 - fib2
-    fib1 -= i
-    fib2 += i
+try:
+    mas = []
+    f0, f1 = 1, 1
+    while True:
+       n = int(input('Введите число N: '))
+       if n > 2 and n < 20:
+        break
+    nn = -n
+    i = 1
+    f_1 = f1 - f0
+    while i >= nn:
+        f0, f1 = f1 - f0, f0
+        mas.append(f1)
+        i = i - 1
+    mas.reverse()
+    mas.append(1)
+    f0, f1 = 1, 1
+    for i in range(2, n):
+         f0, f1 = f1, f0 + f1
+         mas.append(f1)
+    print(*mas)
+except ValueError:
+    print('Упс! Что-то пошло не так, попробуй ввести число!')
 
-      
-    negofibonachi.append(action_0)
 
-print(negofibonachi)
-    
-#  print(negofibonachi)
