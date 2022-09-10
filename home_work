@@ -1,0 +1,22 @@
+
+data = []
+
+with open("nums.txt") as file:
+    nums = file.read().split()
+    for i in nums:
+        i = int(i)
+        if i % 2 == 0:
+            data.append((i, i**3))
+print(data)
+
+
+# list_for_nums = [(i, i**3) for i in files_data]
+# print(list_for_nums)
+
+# for elem in data:
+#         elem = int(elem)
+        
+#             # data2.append((elem, elem**3))
+
+# print(f)
+

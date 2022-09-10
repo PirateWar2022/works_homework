@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da4b149-4a76-4ee5-80be-fa4760c91c0f" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/inf_system/controller.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/inf_system/file.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/inf_system/logger.py" afterDir="false" />
@@ -19,6 +20,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/works_homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/works_homework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework2.py" afterDir="false" />
+>>>>>>> main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +181,10 @@
       <option name="presentableId" value="Default" />
       <updated>1661012024993</updated>
       <workItem from="1661012027481" duration="1277000" />
+      <workItem from="1661188158462" duration="2000" />
+      <workItem from="1661447298239" duration="4000" />
+      <workItem from="1661448347684" duration="4000" />
+      <workItem from="1661517619162" duration="14000" />
     </task>
     <servers />
   </component>

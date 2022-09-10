@@ -55,7 +55,7 @@ with open(file='index.txt', mode='a') as file:
         str(index)
         file.write(f'{index}\n')
         if count == index_list_of_numbers:
-            break
+            countine
 
 
 prod = 1
