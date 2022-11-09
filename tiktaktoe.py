@@ -1,9 +1,9 @@
 import random
+import sre_parse
 from tkinter import *
 import random as r
 import time as t
-import sys as s
-from PIL import Image, ImageTk
+from PIL import ImageTk, Image
 
 bul = False
 
@@ -51,7 +51,7 @@ class Menu(Tk):
         mainloop()
 
     def exi(self):
-        s.exit(Menu)
+        self.destroy()
 
     def bot_but(self):
         global bul
